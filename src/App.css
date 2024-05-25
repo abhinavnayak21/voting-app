@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.voting-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.party {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.party img {
+  width: 100px;
+  height: 100px;
+}
+
+/* .party button {
+  margin-top: 10px;
+  padding: 5px 10px;
+} */
+.party button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
